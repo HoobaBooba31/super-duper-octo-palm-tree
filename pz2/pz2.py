@@ -46,7 +46,7 @@ def creating_plot(d_times, d_dB, theta):
 
 def main():
     global l, k
-    f = 1 * 10 ** 6
+    f = 1 * 10 ** 9
     lmbd = 3 * 10 ** 8 / f
     l = 0.01 * lmbd / 2
     k = 2 * np.pi / lmbd
