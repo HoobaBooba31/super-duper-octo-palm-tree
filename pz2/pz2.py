@@ -43,6 +43,7 @@ def creating_plot(d_times, d_dB, theta):
 
     plt.tight_layout(rect=[0, 0, 1, 0.96])
     plt.show()
+    plt.savefig('task2var1.png')
 
 def main():
     global l, k
