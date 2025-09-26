@@ -1,0 +1,19 @@
+Post-processing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: m
+  Frequency:  GHz
+  Time:       ns
+
+----------------------------------------------------------------------------------------
+
+Template based post-processing started at: 2025-09-24 17:39:55
+
+  Evaluating 'Export Farfields to 3DEXPERIENCE Content': 0.618 s
+
+  Total time: 0 s  ( = 0 h, 0 m, 0 s )
+
+Template based post-processing finished at: 2025-09-24 17:39:55
+----------------------------------------------------------------------------------------

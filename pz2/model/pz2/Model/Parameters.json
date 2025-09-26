@@ -1,0 +1,35 @@
+{
+    "parameters": [
+        {
+            "expr": "1e8",
+            "name": "c",
+            "value": "1e8"
+        },
+        {
+            "expr": "1e9",
+            "name": "f",
+            "value": "1e9"
+        },
+        {
+            "expr": "c/f",
+            "name": "lmbd",
+            "value": "0.1"
+        },
+        {
+            "expr": "0.01*lmbd/2",
+            "name": "l",
+            "value": "0.0005"
+        },
+        {
+            "expr": "lmbd/100",
+            "name": "R",
+            "value": "0.001"
+        },
+        {
+            "expr": "2 * R",
+            "name": "gap",
+            "value": "0.002"
+        }
+    ],
+    "version": 1
+}

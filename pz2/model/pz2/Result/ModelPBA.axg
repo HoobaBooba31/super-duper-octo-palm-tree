@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry version="20170928">
+  <Objects>
+    <Object name="Ports\port1" id="2">
+      <Cone position="-0.00100000005 0 -5.21772296e-19" direction="0 0 1" dimension="10 10 10" material="$PortMaterial$" text="1" short="1"/>
+      <LineSet points="-0.00100000005 0 -0.000500000024 -0.00100000005 0 -0.000403608428 -0.00100000005 0 -0.000403608428 -0.00100000005 0 -0.000307216891 -0.00100000005 0 -0.000307216891 -0.00100000005 0 -0.000210825325 -0.00100000005 0 -0.000210825325 -0.00100000005 0 -8.44684691e-05 -0.00100000005 0 -8.44684691e-05 -0.00100000005 0 8.44684691e-05 -0.00100000005 0 8.44684691e-05 -0.00100000005 0 0.000210825325 -0.00100000005 0 0.000210825325 -0.00100000005 0 0.000307216891 -0.00100000005 0 0.000307216891 -0.00100000005 0 0.000403608428 -0.00100000005 0 0.000403608428 -0.000899999985 0.00567834079 0.00068920874" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="-0.00100000005 0 -8.44684691e-05 -0.00100000005 0 8.44684691e-05" stripped="1" material=""/>
+    </Object>
+  </Objects>
+  <Materials>
+    <Material name="$noSnappingMaterial$">
+      <Drawstyle color="0 0 0" transparency="0" linestrength="5"/>
+    </Material>
+    <Material name="">
+      <Drawstyle color="0 0 0.949999988" transparency="0.600000024" linestrength="0"/>
+    </Material>
+  </Materials>
+  <Groups/>
+</CSTAuxiliaryGeometry>
