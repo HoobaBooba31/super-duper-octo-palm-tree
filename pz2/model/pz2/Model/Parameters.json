@@ -21,14 +21,14 @@
             "value": "0.0005"
         },
         {
-            "expr": "lmbd/100",
+            "expr": "lmbd/1000",
             "name": "R",
-            "value": "0.001"
+            "value": "0.0001"
         },
         {
             "expr": "2 * R",
             "name": "gap",
-            "value": "0.002"
+            "value": "0.0002"
         }
     ],
     "version": 1

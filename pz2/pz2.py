@@ -55,8 +55,14 @@ def main():
 
     print(f'{Dmax(theta=theta):.3f} times\n{10 * np.log10(Dmax(theta=theta)):.3f} dB')
     
-    creating_plot(d_times=D(theta), d_dB=10*np.log10(D(theta) + 1e-9), theta=theta)
-    
+    # creating_plot(d_times=D(theta), d_dB=10*np.log10(D(theta) + 1e-9), theta=theta)
+    d_times = D(theta)
+    d_db = 10*np.log10(D(theta) + 1e-9)
+
+    with open('analyse_results.txt', 'w', encoding='utf-8') as file:
+        file.write('theta   d_times   d_db\n')
+        for i in range(len(theta)):
+            file.write(f'{theta[i]}   {d_times[i]}   {d_db[i]}\n')
 
 if __name__=="__main__":
     main()
