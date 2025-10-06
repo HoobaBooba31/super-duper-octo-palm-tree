@@ -40,12 +40,14 @@ class EPRCalculator:
 class EPRPlotter:
     @staticmethod
     def save_to_xml(frequencies, sigmas, D, filename="output.xml"):
-        root = ET.Element("results", attrib={"diameter": str(D)})
+        root = ET.Element("data")
         for f, s in zip(frequencies, sigmas):
-            entry = ET.SubElement(root, "entry")
-            freq_elem = ET.SubElement(entry, "frequency")
+            entry = ET.SubElement(root, "row")
+            freq_elem = ET.SubElement(entry, "freq")
             freq_elem.text = str(f)
-            sigma_elem = ET.SubElement(entry, "sigma")
+            lambda_elem = ET.SubElement(entry, "lambda")
+            lambda_elem.text = str(3e8 / f)
+            sigma_elem = ET.SubElement(entry, "rcs")
             sigma_elem.text = str(s)
         rough_string = ET.tostring(root, "utf-8")
         reparsed = minidom.parseString(rough_string)
