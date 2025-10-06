@@ -55,7 +55,7 @@ def main():
 
     print(f'{Dmax(theta=theta):.3f} times\n{10 * np.log10(Dmax(theta=theta)):.3f} dB')
     
-    # creating_plot(d_times=D(theta), d_dB=10*np.log10(D(theta) + 1e-9), theta=theta)
+    creating_plot(d_times=D(theta), d_dB=10*np.log10(D(theta) + 1e-9), theta=theta)
     d_times = D(theta)
     d_db = 10*np.log10(D(theta) + 1e-9)
 

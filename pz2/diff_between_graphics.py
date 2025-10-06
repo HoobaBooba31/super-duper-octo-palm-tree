@@ -58,7 +58,6 @@ def creating_plot(cst, python):
     ax2.grid(True)
     ax2.legend()
 
-
     ax3 = fig.add_subplot(2, 2, 3, polar=True)
     ax4 = fig.add_subplot(2, 2, 4, polar=True)
 
