@@ -75,6 +75,7 @@ def creating_plot(cst, python):
 
     plt.tight_layout(rect=[0, 0, 1, 0.96])
     plt.show()
+    plt.savefig("task2var1.png")
 
 
 def main():
